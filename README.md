@@ -2,6 +2,8 @@
 
 A bot written by William Cunningham. Use at your own risk
 
+Note: this bot depends on the discord.py, requests, and asyncio libraries. Make sure you have them installed!
+
 REQUIRES A CONFIG FILE!
 to use, create a text file named 'config.txt' in the same directory as main.py. 
 The format of the file should be as follows:
