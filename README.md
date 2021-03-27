@@ -6,8 +6,8 @@ REQUIRES A CONFIG FILE!
 to use, create a text file named 'config.txt' in the same directory as main.py. 
 The format of the file should be as follows:
 
-token:"<discord bot token>"
-channels:"<channel id number>","<channel id number>","<channel id number>","<channel id number>"
+token:&lt;discord bot token&gt;
+channels:&lt;channel id number&gt;,&lt;channel id number&gt;,&lt;channel id number&gt;,&lt;channel id number&gt;
 
 any lines not starting with 'token:' or 'channels:' will be ignored
 
