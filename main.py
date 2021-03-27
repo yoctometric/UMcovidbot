@@ -31,7 +31,6 @@ async def update(ctx):
 # main loop
 async def main_loop():
     while True:
-        print("Loop looped.")
         await asyncio.sleep(30)
 
 
