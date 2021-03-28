@@ -2,10 +2,12 @@ import discord
 from discord.ext import commands
 import asyncio
 import pagescraper
+import os
 
 # define bot
 bot = commands.Bot(command_prefix='!')
-
+ABS_PATH=os.path.dirname(os.path.abspath(__file__))
+ABS_DIR = f"{ABS_PATH}\\"
 
 @bot.event
 async def on_ready():
@@ -39,7 +41,7 @@ def load_parameters():
     chans = []
     token = ''
 
-    with open('config.txt', 'r') as f:
+    with open(f'{ABS_DIR}config.txt', 'r') as f:
         # naively parse the data
         for line in f.readlines():
             if line.startswith('channels:'):
