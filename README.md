@@ -1,6 +1,6 @@
 # UMcovidbot
 
-A bot written by William Cunningham. Use at your own risk
+A bot written by William Cunningham. Not particularly user friendly, because I don't expect anybody to use it.
 
 Note: this bot depends on the discord.py, requests, and asyncio libraries. Make sure you have them installed!
 
